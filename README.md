@@ -1,0 +1,2 @@
+# tns-rpspt
+with nativescript
