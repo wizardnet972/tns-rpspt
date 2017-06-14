@@ -11,3 +11,12 @@ refer to http://docs.nativescript.org/ui/theme.
 */
 
 @import 'platform.css';
+.pt-item-detail-header {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10;
+}
+
+.pt-item-detail-header.bold {
+    font-weight: bold;
+}
