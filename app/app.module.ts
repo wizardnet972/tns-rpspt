@@ -5,6 +5,10 @@ import { AppComponent } from "./app.component";
 import { PtBacklogModule } from './pt-backlog/pt-backlog.module';
 import { LoginModule } from './pt-login/pt-login.module';
 
+import { setStatusBarColors } from './shared/status-bar-util';
+
+setStatusBarColors();
+
 @NgModule({
     bootstrap: [
         AppComponent
