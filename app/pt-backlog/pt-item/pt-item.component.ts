@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { PTDomain } from '../../typings/domain';
+import { PTDomain } from '../../interfaces/domain';
 import { PriorityEnum, StatusEnum, ItemTypeEnum } from '../../shared/static-data';
 
 import IPTItem = PTDomain.IPTItem;
