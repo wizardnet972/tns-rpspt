@@ -1,5 +1,5 @@
 <ListView [items]="ptItems" class="items-list" (itemTap)="listItemTap($event)">
-    <template let-item="item" let-i="index">
+    <ng-template let-item="item" let-i="index">
         <grid-layout rows="60" columns="10,50,*,100">
             
             <stack-layout col="0">
@@ -19,5 +19,5 @@
                 <Label [text]="item.dateCreated | date"></Label>
             </stack-layout>
         </grid-layout>
-    </template>
+    </ng-template>
 </ListView>

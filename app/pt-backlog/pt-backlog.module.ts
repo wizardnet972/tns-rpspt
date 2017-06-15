@@ -6,6 +6,7 @@ import { PtBacklogComponent } from './pt-backlog.component';
 import { PipesModule } from './pipes/pipes.module';
 import { PtItemListComponent } from './pt-item-list/pt-item-list.component';
 import { PTItemModule } from './pt-item/pt-item.module';
+import { BacklogService } from '../services/backlog.service';
 
 @NgModule({
     imports: [
@@ -18,6 +19,8 @@ import { PTItemModule } from './pt-item/pt-item.module';
         PtBacklogComponent,
         PtItemListComponent,
     ],
-    providers: [],
+    providers: [
+        BacklogService
+    ],
 })
 export class PtBacklogModule { }
